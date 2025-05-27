@@ -1,10 +1,10 @@
 import requests
 from datetime import datetime
 
-GNEWS_API_KEY = "79c3b31329341a977b29df7da05ed6e6"
+GNEWS_API_KEY = ""
 GNEWS_BASE_URL = "https://gnews.io/api/v4/search"
 
-NEWSAPI_KEY = "your_newsapi_key_here"
+NEWSAPI_KEY = ""
 NEWSAPI_BASE_URL = "https://newsapi.org/v2/everything"
 
 def fetch_news(query="politics", lang="en", country="us", max_articles=20):
